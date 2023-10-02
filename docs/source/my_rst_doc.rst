@@ -14,6 +14,7 @@ First Text
     *   Fancy Nesting 2
 
 Between Text
+
 *Italics*
 **BOLD**
 
@@ -36,12 +37,8 @@ Check out more information on `ReST <https://docs.typo3.org/m/typo3/docs-how-to-
 Conclusion
 ==========
 
-..  code-block:: php
-    :caption: EXT:site_package/Configuration/TCA/Overrides/sys_template.php
+..  code-block:: python3
 
-    /**
-     * My comment
-     */
-    \def function():
-         print("Hello Kitty")
-    ;
+    def function():
+        print("Hello Kitty")
+
